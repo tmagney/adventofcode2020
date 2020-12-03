@@ -10,7 +10,7 @@ var product = 0;
 for(var i = 0; i < input.length; i++)
 {
     var entry1 = parseInt(input[i]); 
-    for(var j = i+1; j < input.length - i; j++)
+    for(var j = 0; j < input.length; j++)
     {
         var entry2 = parseInt(input[j])
         actual = entry1 + entry2;
